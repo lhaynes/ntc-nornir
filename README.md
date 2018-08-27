@@ -1,3 +1,3 @@
 # ntc-nornir
 
-Nornir example using Network-to-Code labs
+A simple Nornir example using NAPALM and network.tocode()'s vMX two-node lab.
