@@ -1,0 +1,7 @@
+---
+vmx1:
+  nornir_host: vmx1
+  groups: [junos]
+vmx2:
+  nornir_host: vmx2
+  groups: [junos]
