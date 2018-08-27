@@ -10,7 +10,8 @@ nr = InitNornir(
 
 cmh = nr.filter()
 results = cmh.run(
-  task=napalm_get, getters=['get_lldp_neighbors_detail']
+    #NAPALM Getters: https://napalm.readthedocs.io/en/latest/support/
+    task=napalm_get, getters=['get_lldp_neighbors_detail']
 )
 
 print_result(results)
