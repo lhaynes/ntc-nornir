@@ -3,4 +3,4 @@ vmx:
   nornir_ssh_port: 22
   nornir_username: ntc
   nornir_password: ntc123
-  nornir_nos: junos
+  nornir_nos: vmx
