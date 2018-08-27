@@ -5,7 +5,7 @@ from nornir.plugins.functions.text import print_result
 from nornir.plugins.tasks.networking import napalm_get
 
 nr = InitNornir(
-    config_file='nornir.yaml', num_workers=2
+    config_file='nornir.yaml'
 )
 
 cmh = nr.filter()
