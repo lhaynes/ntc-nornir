@@ -1,5 +1,5 @@
 ---
-junos:
+vmx:
   nornir_ssh_port: 22
   nornir_username: ntc
   nornir_password: ntc123
